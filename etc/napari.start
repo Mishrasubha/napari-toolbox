@@ -1,7 +1,7 @@
 //
 
 
-function scipythonlib = startnapari()
+function naparilib = startnapari()
   mprintf("Start napari\n");
 
   if isdef("naparilib") then
