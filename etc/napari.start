@@ -1,20 +1,20 @@
 //
 
 
-function scipythonlib = startscipython()
-  mprintf("Start scipython\n");
+function scipythonlib = startnapari()
+  mprintf("Start napari\n");
 
-  if isdef("scipythonlib") then
-    warning("scipython library is already loaded");
+  if isdef("naparilib") then
+    warning("napari library is already loaded");
     return;
   end
 
-  scipythonlib = [];
+  naparilib = [];
 
   mode(-1);
   lines(0);
 
-  etc_tlbx = get_absolute_file_path('scipython.start');
+  etc_tlbx = get_absolute_file_path('napari.start');
   etc_tlbx  = getshortpathname(etc_tlbx);
   root_tlbx = strncpy( etc_tlbx, length(etc_tlbx)-length("\etc\") );
 
@@ -31,16 +31,16 @@ function scipythonlib = startscipython()
   [pythonExternInstall, pythonPath] = checkPython();
   os = getos();
   if os == "Windows" then
-      link(fullfile(pythonPath, "python27.dll"));
+      link(fullfile(pythonPath, "python38.dll"));
   elseif os == "Linux" then
-      link(fullfile(pythonPath, "lib/libpython2.7.so"));
+      link(fullfile(pythonPath, "lib/libpython3.8.so"));
   end
 
 // load gateways
   mprintf("\tLoad gateways\n");
 
   link(root_tlbx + "/src/cpp/libpims_cpp" + getdynlibext());
-  exec(pathconvert(root_tlbx + "/sci_gateway/loader_gateway.sce", %F));
+  exec(pathconvert(root_tlbx + "/napari_gateway/loader_gateway.sce", %F));
 
 // Add embedded Python lib path to Python sys path if embedded Python used
   if ~pythonExternInstall then
@@ -64,7 +64,7 @@ function scipythonlib = startscipython()
     mprintf("\tLoad help\n");
     path_addchapter = pathconvert(root_tlbx + "/jar");
     if ( isdir(path_addchapter) <> [] ) then
-      add_help_chapter("scipython", path_addchapter, %F);
+      add_help_chapter("napari", path_addchapter, %F);
     end
   end
 
@@ -72,11 +72,11 @@ function scipythonlib = startscipython()
   if or(getscilabmode() == ["NW";"STD"]) then
     mprintf("\tLoad demos\n");
     pathdemos = pathconvert(root_tlbx+"/demos/pims.dem.gateway.sce",%F,%T);
-    //add_demo("scipython",pathdemos);
+    //add_demo("napari",pathdemos);
   end
 endfunction
 
-// call startscipython function
-scipythonlib = startscipython();
-// clear startscipython
-clear startscipython;
+// call napari function
+naparilib = startnapari();
+// clear napari
+clear napari;
