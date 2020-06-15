@@ -5,9 +5,9 @@ function builder_gateway()
   sci_gateway_dir = get_absolute_file_path("builder_gateway.sce");
   languages       = ["cpp"];
 
-  tbx_builder_gateway_lang(languages,sci_gateway_dir);
-  tbx_build_gateway_loader(languages,sci_gateway_dir);
-  tbx_build_gateway_clean(languages,sci_gateway_dir);
+  tbx_builder_gateway_lang(languages,napari_gateway_dir);
+  tbx_build_gateway_loader(languages,napari_gateway_dir);
+  tbx_build_gateway_clean(languages,napari_gateway_dir);
 
 endfunction 
 
