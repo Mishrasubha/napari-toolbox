@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book [
+<!--Begin Entities-->
+<!ENTITY aa39e2c270db4df2d6de5354dcc63417e SYSTEM "file:///H:/Dev/scipython/help/en_US/pyAddToPath.xml">
+<!ENTITY a63bed1ab9e34863c63e81801f314b725 SYSTEM "file:///H:/Dev/scipython/help/en_US/pyAddVar.xml">
+<!ENTITY a1bc7630c7e7ae629789b01cce3144ad0 SYSTEM "file:///H:/Dev/scipython/help/en_US/pyAllowModuleReloading.xml">
+<!ENTITY a2e75be4afb2a1207a9109c01ad45f239 SYSTEM "file:///H:/Dev/scipython/help/en_US/pyAttachModule.xml">
+<!ENTITY a1e2cf5148d9a3c9ac29f3306f4264026 SYSTEM "file:///H:/Dev/scipython/help/en_US/pyAutounwrap.xml">
+<!ENTITY a5f94b9c000cbf359ff313f16f7b1e107 SYSTEM "file:///H:/Dev/scipython/help/en_US/pyBuiltin.xml">
+<!ENTITY ae6fb2d1df53edd46644a6ade22fa4cc0 SYSTEM "file:///H:/Dev/scipython/help/en_US/pyByCopy.xml">
+<!ENTITY abb79866ac4ca6b8147d1afc8108bb343 SYSTEM "file:///H:/Dev/scipython/help/en_US/pyDeff.xml">
+<!ENTITY ae98d390722c46961010543898eb49893 SYSTEM "file:///H:/Dev/scipython/help/en_US/pyDict.xml">
+<!ENTITY a514a3d5527ea6ce5f0ff519acc5649d9 SYSTEM "file:///H:/Dev/scipython/help/en_US/pyEvalStr.xml">
+<!ENTITY a4266b3463e00def527e9b9a7518034a8 SYSTEM "file:///H:/Dev/scipython/help/en_US/pyExists.xml">
+<!ENTITY a682efe1ce107186bb56c6599ff63ea4a SYSTEM "file:///H:/Dev/scipython/help/en_US/pyGetAttr.xml">
+<!ENTITY aa77e910966baedf272cc2a3d815f7677 SYSTEM "file:///H:/Dev/scipython/help/en_US/pyGetEnvId.xml">
+<!ENTITY a8bef660dd86dbdf21beac675ccf33908 SYSTEM "file:///H:/Dev/scipython/help/en_US/pyGetField.xml">
+<!ENTITY ad9528a93d574c84d650a6ca36a8e3642 SYSTEM "file:///H:/Dev/scipython/help/en_US/pyGetFields.xml">
+<!ENTITY a2206206d8620195a34e56466c66bb86a SYSTEM "file:///H:/Dev/scipython/help/en_US/pyGetInfos.xml">
+<!ENTITY af2687db0fba2cca039f36ec492139168 SYSTEM "file:///H:/Dev/scipython/help/en_US/pyGetMethods.xml">
+<!ENTITY ab390976e212e44c8b02ab33864cf01b3 SYSTEM "file:///H:/Dev/scipython/help/en_US/pyGetName.xml">
+<!ENTITY ab35d8fb0bb7829df989b1aa6540a7ad9 SYSTEM "file:///H:/Dev/scipython/help/en_US/pyGetPath.xml">
+<!ENTITY ac8f96cf96302157ba42f91148695855b SYSTEM "file:///H:/Dev/scipython/help/en_US/pyGetVar.xml">
+<!ENTITY a3299549effa00b86547a7a0e60799a63 SYSTEM "file:///H:/Dev/scipython/help/en_US/pyImport.xml">
+<!ENTITY a22dcc5af8184d379ca6eaf412c1c9a06 SYSTEM "file:///H:/Dev/scipython/help/en_US/pyInvoke.xml">
+<!ENTITY a060e66ae8b6b05f9bee1fab5a856b8c8 SYSTEM "file:///H:/Dev/scipython/help/en_US/pyKill.xml">
+<!ENTITY a39ad14f967043926ff31cdf7bab05960 SYSTEM "file:///H:/Dev/scipython/help/en_US/pyList.xml">
+<!ENTITY ae0b92d26b02b49e9aba727646138ed91 SYSTEM "file:///H:/Dev/scipython/help/en_US/pyMain.xml">
+<!ENTITY a41528aa421883276f8be59857f2452bf SYSTEM "file:///H:/Dev/scipython/help/en_US/pyNpWrap.xml">
+<!ENTITY a140e6471714bb759ce8b330a576e1a22 SYSTEM "file:///H:/Dev/scipython/help/en_US/pyRemove.xml">
+<!ENTITY a2036f75dd68a3e720ff21037d24d8236 SYSTEM "file:///H:/Dev/scipython/help/en_US/pyRepr.xml">
+<!ENTITY aa2c4e1193de777f362e329cff6f6ff0f SYSTEM "file:///H:/Dev/scipython/help/en_US/pySet.xml">
+<!ENTITY a2f427eeffbc963ad280501d1e9d9a4ef SYSTEM "file:///H:/Dev/scipython/help/en_US/pyShowPrivate.xml">
+<!ENTITY a1cdb2a1dfe4768ca71d106cb2026469e SYSTEM "file:///H:/Dev/scipython/help/en_US/pyTrace.xml">
+<!ENTITY af03e069bdfb4fe0036433a052f1f38c0 SYSTEM "file:///H:/Dev/scipython/help/en_US/pyTuple.xml">
+<!ENTITY aab649fabde8e5d0d1a93a8b1a5de41f8 SYSTEM "file:///H:/Dev/scipython/help/en_US/pyUnwrap.xml">
+<!ENTITY a6e497689035bed52b5177651ed5eb32e SYSTEM "file:///H:/Dev/scipython/help/en_US/pyUnwraprem.xml">
+<!ENTITY a4d4fd89b3c222c46a73935e693e0fd26 SYSTEM "file:///H:/Dev/scipython/help/en_US/pyUseNumpy.xml">
+<!ENTITY a42c598afcf57cb3a62ac8e65215f41c0 SYSTEM "file:///H:/Dev/scipython/help/en_US/pyUseScilabIndex.xml">
+<!ENTITY a29c953b4640297395aa01c819fee1959 SYSTEM "file:///H:/Dev/scipython/help/en_US/pyWrap.xml">
+<!ENTITY a87cc56f7e4d65adba39281477e8d24af SYSTEM "file:///H:/Dev/scipython/help/en_US/pyWrapAsRef.xml">
+<!--End Entities-->
+]>
+<book version="5.0-subset Scilab" xml:lang="en_US"
+      xmlns="http://docbook.org/ns/docbook"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:svg="http://www.w3.org/2000/svg"
+      xmlns:mml="http://www.w3.org/1998/Math/MathML"
+      xmlns:html="http://www.w3.org/1999/xhtml"
+      xmlns:db="http://docbook.org/ns/docbook">
+  <info xml:id='scilab_python_toolbox_manual'>
+    <title>Scilab Python Toolbox</title>
+  </info>
+
+<part xml:id='section_715280e7921549d4f7ec93e75199ecad'>
+<title>Scilab Python Toolbox</title>
+&aa39e2c270db4df2d6de5354dcc63417e;
+&a63bed1ab9e34863c63e81801f314b725;
+&a1bc7630c7e7ae629789b01cce3144ad0;
+&a2e75be4afb2a1207a9109c01ad45f239;
+&a1e2cf5148d9a3c9ac29f3306f4264026;
+&a5f94b9c000cbf359ff313f16f7b1e107;
+&ae6fb2d1df53edd46644a6ade22fa4cc0;
+&abb79866ac4ca6b8147d1afc8108bb343;
+&ae98d390722c46961010543898eb49893;
+&a514a3d5527ea6ce5f0ff519acc5649d9;
+&a4266b3463e00def527e9b9a7518034a8;
+&a682efe1ce107186bb56c6599ff63ea4a;
+&aa77e910966baedf272cc2a3d815f7677;
+&a8bef660dd86dbdf21beac675ccf33908;
+&ad9528a93d574c84d650a6ca36a8e3642;
+&a2206206d8620195a34e56466c66bb86a;
+&af2687db0fba2cca039f36ec492139168;
+&ab390976e212e44c8b02ab33864cf01b3;
+&ab35d8fb0bb7829df989b1aa6540a7ad9;
+&ac8f96cf96302157ba42f91148695855b;
+&a3299549effa00b86547a7a0e60799a63;
+&a22dcc5af8184d379ca6eaf412c1c9a06;
+&a060e66ae8b6b05f9bee1fab5a856b8c8;
+&a39ad14f967043926ff31cdf7bab05960;
+&ae0b92d26b02b49e9aba727646138ed91;
+&a41528aa421883276f8be59857f2452bf;
+&a140e6471714bb759ce8b330a576e1a22;
+&a2036f75dd68a3e720ff21037d24d8236;
+&aa2c4e1193de777f362e329cff6f6ff0f;
+&a2f427eeffbc963ad280501d1e9d9a4ef;
+&a1cdb2a1dfe4768ca71d106cb2026469e;
+&af03e069bdfb4fe0036433a052f1f38c0;
+&aab649fabde8e5d0d1a93a8b1a5de41f8;
+&a6e497689035bed52b5177651ed5eb32e;
+&a4d4fd89b3c222c46a73935e693e0fd26;
+&a42c598afcf57cb3a62ac8e65215f41c0;
+&a29c953b4640297395aa01c819fee1959;
+&a87cc56f7e4d65adba39281477e8d24af;
+</part>
+</book>

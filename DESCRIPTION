@@ -1,0 +1,14 @@
+Toolbox: Napari
+Title: Scilab Napari Toolbox
+Summary: Interface to Napari from Scilab
+Version: 1.0
+Author: 
+Maintainer: 
+Category: Scilab development
+Entity: Scilab Enterprises
+WebSite: https://napari.org/tutorials/fundamentals/getting_started
+License: 
+ScilabVersion: >= 6.1
+Depends: 
+Date:
+

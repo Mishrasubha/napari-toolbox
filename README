@@ -1,0 +1,7 @@
+napari-toolbox is an interface to napari from Scilab.
+It allows to call and manipulate almost any napari function, object, or data from the Scilab interpreter.
+
+
+
+The [tutorial](https://napari.org/tutorials/fundamentals/getting_started) explains how to use napari.
+
